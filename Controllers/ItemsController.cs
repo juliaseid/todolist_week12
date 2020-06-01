@@ -18,8 +18,11 @@ namespace ToDoList.Controllers
 
     public ActionResult Index()
     {
-      return View(_db.Items.ToList());
+      List<Item> allItems = _db.Items.ToList();
+      allItems = allItems.OrderBy(i => i.DueDate).ToList();
+      return View(allItems);
     }
+
 
     public ActionResult Create()
     {
@@ -114,7 +117,6 @@ namespace ToDoList.Controllers
     public ActionResult MarkAsComplete(Item item, int id)
     {
       Item thisItem = _db.Items.FirstOrDefault(items => items.ItemId == id);
-      // thisItem.Complete = true;
       thisItem.Complete = true;
       _db.Entry(thisItem).State = EntityState.Modified;
       _db.SaveChanges();

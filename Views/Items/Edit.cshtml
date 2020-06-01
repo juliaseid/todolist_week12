@@ -18,6 +18,9 @@
     @Html.Label("Select category")
     @Html.DropDownList("CategoryId")
 
+    @Html.LabelFor(model => model.DueDate)
+    @Html.TextBoxFor(model => model.DueDate, "{0:yyyy-MM-dd}", new { type="date" })
+
     <input type="submit" value="Save" />
 }
 

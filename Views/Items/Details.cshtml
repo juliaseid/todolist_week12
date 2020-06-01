@@ -7,6 +7,7 @@
 <h2>Item Details</h2>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</h3>
+<h3>@Html.DisplayNameFor(model => model.DueDate): @Html.DisplayFor(model => model.DueDate)</h3>
   @using (Html.BeginForm("MarkAsComplete", "Items", new { id = Model.ItemId }))
       {
         <input type="submit" value="Complete?">

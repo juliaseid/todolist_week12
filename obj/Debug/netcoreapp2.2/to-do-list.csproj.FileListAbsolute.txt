@@ -1,0 +1,9 @@
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/bin/Debug/netcoreapp2.2/to-do-list.deps.json
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/bin/Debug/netcoreapp2.2/to-do-list.dll
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/bin/Debug/netcoreapp2.2/to-do-list.pdb
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/obj/Debug/netcoreapp2.2/to-do-list.csprojAssemblyReference.cache
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/obj/Debug/netcoreapp2.2/to-do-list.csproj.CoreCompileInputs.cache
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/obj/Debug/netcoreapp2.2/to-do-list.AssemblyInfoInputs.cache
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/obj/Debug/netcoreapp2.2/to-do-list.AssemblyInfo.cs
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/obj/Debug/netcoreapp2.2/to-do-list.dll
+/Users/juliaseidman/Documents/Epicodus/Week_9/to-do-list/to-do-list/obj/Debug/netcoreapp2.2/to-do-list.pdb
